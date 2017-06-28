@@ -67,6 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="scripts\jquery-3.1.1.min.map" />
+    <Content Include="scripts\jquery-3.1.1.slim.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,6 +77,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="SamplePLugin.html" />
+    <Content Include="scripts\jquery-3.1.1.js" />
+    <Content Include="scripts\jquery-3.1.1.min.js" />
+    <Content Include="scripts\jquery-3.1.1.slim.js" />
+    <Content Include="scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="scripts\jquery.showLinkLocation.js" />
+    <Content Include="scripts\linkManager.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
